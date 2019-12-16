@@ -21,7 +21,37 @@ body,
 }
 
 .spacer {
-  height: 100%;
+
+ 
+  
+}
+
+.add-color {
+  display: flex;
+  flex-flow: column;
+  
+  input {
+
+    margin: 2% auto;
+    padding: 2% .5%;
+  }
+
+  button {
+
+    width: 66%;
+    margin: 0 auto;
+    color: black;
+    background: hotpink;
+    border: none;
+    outline: none;
+    padding: 4% 2%;
+
+    &:hover {
+
+      background: cyan;
+    }
+  }
+
 }
 
 .bubble-wrap {
